@@ -5,6 +5,11 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
+
+header {
+    text-align: center;
+}
+
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -35,4 +40,90 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
+
+.sidebar .fixed-position {
+    position: fixed;
+}
+
+.sidebar a {
+    color: black;
+}
+
+.sidebar a:hover {
+    color: blue;
+}
+
+.image-center {
+    text-align: center;
+}
+
+hr {
+  margin-top: -15px;
+}
+
+.fw-400-title {
+  font-weight: 400;
+}
+
+.fs-title-h2 {
+  font-size: 1.1em;
+  margin-top: 25px;
+}
+
+figure .figure-table {
+  margin: 0.5em 0 1.3em 1.4em;
+  clear: right;
+  float: right;
+  display: table;
+  text-align: center;
+  border: 1px solid #c8ccd1;
+  border-collapse: collapse;
+  border-bottom: 0;
+  background-color: #f8f9fa;
+}
+
+div .figure-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.figure-bg-color {
+  border: 1px solid #c8ccd1;
+  background-color: #f8f9fa;
+}
+
+li .normal {
+  list-style: disc;
+  padding: 6px;
+  margin-left: 8px;
+}
+
+li .list-none {
+    list-style: none;
+}
+
+li .list-none a {
+    font-size: 1.3rem;
+    color: black;
+}
+
+li .list-none a:hover {
+    color: blue;
+}
+
+.voltar-topo {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+.heart-red {
+    color: #aa0c0c;
+    font-size: 1rem;
+}
+
+footer>.alinha-centro {
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: -1.25rem;
 }
